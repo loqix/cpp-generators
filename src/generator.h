@@ -33,7 +33,6 @@ public:
     };
 private:
     execution_context<generator_func> _econtext;
-    R _cur;
 };
 
 template <class R, class Fn>
